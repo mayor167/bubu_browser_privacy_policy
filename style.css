@@ -1,0 +1,115 @@
+/* Global */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #0a0a0a, #333);
+  color: white;
+  padding: 45px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.button {
+  background: #000;
+  display: inline-block;
+  color: white;
+  padding: 14px 26px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 1rem;
+  transition: 0.2s ease-in-out;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+}
+
+/* Features */
+.features h2 {
+  text-align: center;
+}
+
+.feature-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 20px;
+}
+
+.feature-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.08);
+  transition: 0.2s ease-in-out;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Legal section */
+.legal {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.legal-links a {
+  display: inline-block;
+  margin: 8px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 3px;
+}
+
+.legal-links a:hover {
+  border-bottom: 2px solid #000;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 30px 10px;
+  margin-top: 60px;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .button {
+    width: 90%;
+  }
+}

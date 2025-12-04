@@ -4,46 +4,74 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bubu Browser — Fast, Lightweight Nigerian Browser</title>
-  <style>
-      body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
-      header { background: #222; color: #fff; padding: 30px; text-align: center; }
-      section { padding: 20px; }
-      .container { max-width: 900px; margin: auto; }
-      h1, h2 { color:white; }
-      a.button { background: #000; color: white; padding: 12px 24px; border-radius: 6px; text-decoration: none; }
-      footer { text-align: center; padding: 30px; background: #eee; margin-top: 40px; }
-      ul li { margin-bottom: 8px; }
-  </style>
+
+  <!-- Disable caching -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache"/>
+  <meta http-equiv="Expires" content="0"/>
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
 
 <header>
   <h1>Bubu Browser</h1>
-  <p>Fast • Lightweight • News-Powered • Made for Everyone</p>
+  <p>Fast • Lightweight • News-Powered • Secure • Built for Everyone</p>
 </header>
 
-<section class="container">
-  <h2>About Bubu Browser</h2>
-  <p>Bubu Browser is a modern lightweight browser and news aggregator designed by <strong>Jacombe Ventures / Oyeyemi Mayokun</strong>. Enjoy fast browsing, real-time news, sports updates, business headlines, entertainment, technology and more — all in one simple browsing experience.</p>
+<section class="hero container">
+  <h2>Welcome to Bubu Browser</h2>
+  <p>
+    Bubu Browser is a modern lightweight browser and news aggregator developed by
+    <strong>Jacombe Ventures / Oyeyemi Mayokun</strong>
+    Enjoy fast browsing, real-time news, sports, entertainment, business and more — all in one browsing experience.
+  </p>
 
-  <a class="button" href="#">Download on Google Play</a>
+  <a class="button" href="#" target="_blank">Download on Google Play</a>
 </section>
 
-<section class="container">
+<section class="features container">
   <h2>Main Features</h2>
-  <ul>
-    <li>Fast and secure browsing</li>
-    <li>Daily updates from trusted Nigerian and global news publishers</li>
-    <li>Built-in multi-search engine</li>
-    <li>Internal adverts and announcements</li>
-    <li>Clean UI and extremely lightweight</li>
-  </ul>
+
+  <div class="feature-grid">
+
+    <div class="feature-card">
+      <h3>Fast and Secure</h3>
+      <p>Enjoy a smooth and optimized browsing experience on all devices.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3> Daily News</h3>
+      <p>Get updates from trusted Nigerian & global news publishers.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3>Multi-Search Engine</h3>
+      <p>Choose how you search the web — fast and easy.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3> Internal Ads</h3>
+      <p>Admin-managed in-app adverts and announcements.</p>
+    </div>
+
+    <div class="feature-card">
+      <h3> Clean UI</h3>
+      <p>Simple, elegant and extremely lightweight interface.</p>
+    </div>
+
+  </div>
 </section>
 
-<section class="container">
+
+<section class="legal container">
   <h2>Legal</h2>
-  <p><a href="privacy-policy.html">Privacy Policy</a></p>
-  <p><a href="terms-of-service.html">Terms of Service</a></p>
+
+  <div class="legal-links">
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="terms-of-service.html">Terms of Service</a>
+  </div>
 </section>
 
 <footer>
