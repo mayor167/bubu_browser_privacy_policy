@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", Arial, sans-serif;
-  background: red;
+  background: #f4f4f4;
   color: #222;
   line-height: 1.7;
 }
@@ -16,7 +16,7 @@ body {
 
 /* Header */
 header {
-  background: linear-gradient(135deg, #0a0a0a, #333);
+  background: linear-gradient(135deg, #E64A19 0%, #F85A2A 30%, #FF758F 70%, #E91E63 100%);
   color: white;
   padding: 45px 20px;
   text-align: center;
@@ -95,7 +95,7 @@ header h1 {
 
 /* Footer */
 footer {
-  background: #111;
+ background: linear-gradient(135deg, #E64A19 0%, #F85A2A 30%, #FF758F 70%, #E91E63 100%);
   color: white;
   text-align: center;
   padding: 30px 10px;
