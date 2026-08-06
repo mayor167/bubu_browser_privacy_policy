@@ -70,8 +70,14 @@
 </div>
 
 <div class="policy-footer">
-  <p>&copy; 2025 Bubu Browser — <a href="index.html">Back to Home</a></p>
+  <p>&copy; <span class="year">2026</span> Bubu Browser — <a href="index.html">Back to Home</a></p>
 </div>
+
+<script>
+  document.querySelectorAll('.year').forEach(function (el) {
+    el.textContent = new Date().getFullYear();
+  });
+</script>
 
 </body>
 </html>

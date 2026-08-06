@@ -168,7 +168,7 @@
   <p>You may delete your account at any time from <strong>Settings &gt; Delete Account</strong> within the app. Upon deletion:</p>
   <ul>
     <li>Your email address, profile data, referral history, reward records, verification codes, and activity logs are permanently deleted.</li>
-    <li>Anonymised fraud-prevention records (cryptographic hashes only) are retained to prevent referral abuse, in accordance with Google Play's guidelines permitting retention of data necessary for fraud prevention and legal compliance.</li>
+    <li>Anonymised fraud-prevention records (cryptographic hashes only) are retained to prevent referral abuse. We retain these records on the basis of our legitimate interest in protecting the integrity of the referral programme and in meeting our legal and regulatory obligations.</li>
     <li>Account deletion is irreversible. You will not be able to re-register for the referral program on the same device.</li>
   </ul>
   <p>To request account deletion without access to the app, contact us at <strong>anihebuka8@gmail.com</strong>.</p>
@@ -176,7 +176,6 @@
   <h2>7. Third-Party Services</h2>
   <p>The app may use third-party services such as:</p>
   <ul>
-    <li>Google Play Services</li>
     <li>RSS Feed Providers</li>
     <li>Firebase (Google) — authentication, database storage, cloud functions, and moderation. <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
     <li>Google Perspective API — for toxicity detection in comments</li>
@@ -243,8 +242,14 @@
 </div>
 
 <div class="policy-footer">
-  <p>&copy; 2025 Bubu Browser — <a href="index.html">Back to Home</a></p>
+  <p>&copy; <span class="year">2026</span> Bubu Browser — <a href="index.html">Back to Home</a></p>
 </div>
+
+<script>
+  document.querySelectorAll('.year').forEach(function (el) {
+    el.textContent = new Date().getFullYear();
+  });
+</script>
 
 </body>
 </html>

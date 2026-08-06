@@ -26,8 +26,6 @@
     Bubu Browser is a modern lightweight browser and news aggregator owned and developed by
     <strong>Jacombe Ventures</strong> and <strong>Maysync Technologies Limited</strong> respectively. Enjoy fast browsing, real-time news, sports, entertainment, business and more — all in one browsing experience.
   </p>
-
-  <a class="button" href="#" target="_blank">Download on Google Play</a>
 </section>
 
 <section class="features container">
@@ -73,12 +71,19 @@
   <div class="legal-links">
     <a href="privacy-policy.html">Privacy Policy</a>
     <a href="terms-of-service.html">Terms of Service</a>
+    <a href="support.html">Support</a>
   </div>
 </section>
 
 <footer>
-  <p>&copy; 2025 Bubu Browser — Owned by Jacombe Ventures, developed by Maysync Technologies Team</p>
+  <p>&copy; <span class="year">2026</span> Bubu Browser — Owned by Jacombe Ventures, developed by Maysync Technologies Team</p>
 </footer>
+
+<script>
+  document.querySelectorAll('.year').forEach(function (el) {
+    el.textContent = new Date().getFullYear();
+  });
+</script>
 
 </body>
 </html>
